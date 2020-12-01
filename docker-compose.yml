@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  statlerwaldorfcorp.teamservice:
+    image: ${DOCKER_REGISTRY-}statlerwaldorfcorpteamservice
+    build:
+      context: .
+      dockerfile: Dockerfile
